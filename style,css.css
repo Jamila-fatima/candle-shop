@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    background: linear-gradient(rgb(216, 208, 208), rgb(243, 144, 159));
+    color: rgb( 255, 255, 255);
+}
+
+.wallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 130px;
+}
+
+.wallet input {
+    background-color: pink;
+    width: 80px;
+    border: 5px solid gainsboro;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: green;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.total p {
+    width: 20px;
+    font-size: 40px;
+    border: none;
+}
+
+.total h1 {
+    margin-top: 40px;
+}
+
+#img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.incre {
+    border: none;
+    padding: 8px 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: linear-gradient(315deg, #0ef0e4 0%, #af9494 74%);
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.decre {
+    border: none;
+    padding: 8px 7px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+    text-align: center;
+    font-weight: bold;
+}
+
+.add-sub {
+    padding: 8px 0px;
+    border: none;
+    /* background: #b8235a; */
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    width: 50px;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.image {
+    background-color: lightpink;
+    border:5px solid gainsboro;
+    
+}
+
+.image2 {
+    background-color: lightpink;
+    border:5px solid gainsboro;
+}
+
+.image3 {
+    background-color: lightpink;
+    border:5px solid gainsboro;
+}
+
+figure {
+    color: white;
+    font-size: 12px;
+}
+
+figure h1 {
+    color: white;
+    
+}
+
+.fa-twitter {
+    border: none;
+    border-radius: 50%;
+    padding: 20px 20px;
+    background: skyblue;
+    color: gainsboro;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    #img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .image {
+        margin-bottom: 20px;
+    }
+    .image3 {
+        margin-top: 20px;
+    }
+}
